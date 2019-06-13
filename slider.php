@@ -17,37 +17,24 @@
 <?php 
 $arr = file('bilder.txt');
 	sort($arr, SORT_STRING);
-                foreach($arr as $line){
-                list($key,$value) = explode('.',$line);//string
-		$arr_res[$key] = $value;//erzeugt ein assoziatives array
-                }
-
-
-
- 			ksort($arr_res);
-
-                        $i = 1;
-
-                        function getMenu($txt,$link){
-                        global $i;
-                        $i = $i-0.1;
-
-
-                        
-                        $html = "<img src='slider-images/".htmlentities($txt).".".$link."' class='bild' >";
-			
-                        return $html;
-
-                        }
-
-                        foreach($arr_res as $key => $value){
-                                echo getMenu( $key,$value);
-				
-
-                        }
-
-
-
-
+	
+    foreach($arr as $line){
+        list($key,$value) = explode('.',$line);//string
+        $arr_res[$key] = $value;//erzeugt ein assoziatives array
+    }
+    
+    ksort($arr_res);
+    $i = 1;
+    
+    function getMenu($txt,$link){
+        global $i;
+        $i = $i-0.1;
+        $html = "<img src='slider-images/".htmlentities($txt).".".$link."' class='bild' >";
+        return $html;
+    }
+    
+    foreach($arr_res as $key => $value){
+        echo getMenu( $key,$value);
+    }
 ?>
 </div>
