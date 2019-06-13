@@ -38,3 +38,5 @@ $arr = file('bilder.txt');
     }
 ?>
 </div>
+</body>
+</html>
