@@ -1,0 +1,589 @@
+﻿/*Hexadez-Color-Finder:   http://html-color-codes.info/  */
+
+
+body {
+	background-image:url(Birke_heller.jpg);
+	margin: 0px;
+}
+
+#header {
+	/*width: auto;
+	height: 180px;*/
+	overflow: auto;
+}
+
+.Press{
+	color: #fff;
+	width: 250px;
+	height: 25px;
+	background-color: #df6c0f;
+/*	background-color: #9109B2; */
+	box-shadow: 0px 0px 20px #FFB600;
+	margin-top: 0px;
+	font-weight: 900;
+}
+
+#menu {
+	width: 900px;
+	height: 65px;
+	background-color: #C6AD6F;
+
+}
+
+nav ul {
+	float: left;
+	padding-left: 20px;
+	margin: 20px;
+
+
+}
+
+nav ul li {
+	list-style-type: none;
+	float: left;
+	height: 25px;
+	width: 120px;
+	line-height: 25px;
+	margin-left: 20px;
+	background-color: #df6c0f;
+	text-align: center;
+	color: #C6AD6F;
+	box-shadow: 0px 0px 20px #FFB600;
+}
+
+
+nav a {
+
+	background-color: #df6c0f;	
+/*	background-color: #9109B2; */
+	display: block;
+}
+
+/*wenn der cursor über den menüpunten ist, aber nicht gedrückt wird*/
+nav a:hover,
+nav a:focus {
+
+	background-color:#19FFAF;
+	/*background-image:url(img/Margarethe_im-magischen-Wald.png);*/
+
+
+}
+
+#inhalt {
+	width: 880px;
+	height: auto;
+	padding-left: 20px;
+	float: left;
+	background-image:url(marmor.jpg);
+	font-size: 12px;
+	color: #000;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+p {
+	        padding-top: 5px;
+        margin-top: 5px;
+
+}
+
+#spalte_links {
+	width: 273px;
+	margin-right: 20px;
+	float: left;
+
+}
+
+#spalte_mitte {
+	width: 274px;
+	margin-right: 20px;
+	float: left;
+	
+}
+
+#spalte_mitte a:link{
+	color: #1E7C23;
+	
+}
+
+
+#spalte_rechts {
+	width: 273px;
+	margin-right: 20px;
+	float: left;
+}
+
+#doppel_spalte {
+	width: 567px;
+	margin-right: 20px;
+	float: left;
+
+}
+
+/*#Inhaltsverzeichnis {
+	width: 567px;
+	float: left;
+}
+*/
+ h2 {
+    font-size: 16px;
+	color: #525e6a;
+}
+
+ h3 {
+    font-size: 12px;
+	color: #525e6a;
+}
+
+.teaser {
+    border-top-color: #C6AD6F;
+	border-top-style: solid;
+	var op_ie = 100;
+	border-top-width: 3px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	float: left;
+}
+
+.bild_klein {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+
+}
+
+.bild_gross {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	/* Wie bringe ich es fertig, wenn das originabild rechteckig ist, dass es nicht verzogen ist und trotzdem 200x200px ausfüllt?*/
+}
+
+#footerhi {
+   width: 900px;
+   text-align: center;
+   float: left;
+   background-color: #C6AD6F;
+   margin-top: 5px;
+
+}
+
+label {
+	width: 160px;
+	float: left;
+	/* display: block; */
+	margin-top: 5px;
+	text-transform: uppercase;
+	color: #344680;
+
+
+	
+
+}
+
+#vorname, 
+#nachname,
+#adresse.
+#plz,
+#ort {
+	width: 160px;
+
+}
+
+
+textarea {
+	width: 300px;
+	height: 60px;
+	color: green;
+	background-color: #FFB600;
+
+}
+
+.sendebutton {
+	padding-left: 160px;
+
+}
+
+
+select {
+	width: 160px;
+	box-shadow: 0px 0px 20px #19FFAE;
+}
+
+input {
+	color: green;
+	background-color: #FFB600;
+	width: 160px;
+	text-align: center;
+	float: center;
+
+}
+
+.andro {
+	width: 160px;
+	
+}
+
+a:link  {
+	color: #FF0000;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+
+a:visited {
+	color: #929292;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #847739;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+a:active {
+	color: #FBE411;
+/*	color: #c31E01; */
+	font-weight: bold;
+	text-decoration: none;
+	/* wenn man was drückt, erscheint andere Farbe*/
+	
+}
+
+#x:link {
+	color: #525e6a;
+/*
+	color: #9109B2; */
+}
+
+#x:visited {
+	color: #6B6262;
+/*	color: #19FFAE; */
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+#x:hover {
+	color: #847739;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:active {
+	color: #FBE411;
+	font-weight: bold;
+	text-decoration: none;
+	/* wenn man was drückt, erscheint andere Farbe*/
+	
+}
+
+
+
+eins {
+	color: #000;
+}
+
+#suchfunktion {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+#versenden {
+	width: 30px;
+	
+	
+
+}
+
+kuk {
+	color: #6F1A0D;
+
+}
+
+sp {
+	color: #9F491E;
+	font-size: 15px;
+}
+
+hi {
+	color: #C132BC;
+		
+}
+
+cyriak {
+	background-color: #C0BD09;
+}
+
+punk {
+	color: green;
+	font-size: 16px;
+}
+
+k {
+	font-size:6px;
+}
+
+#center {
+	
+	text-align:center;
+}
+
+.maxi {
+	color: grey;
+	font-weight: bold;
+	font-family:Maxens_Druckschrift.ttf;
+	font-size: 20px;
+}
+
+b {
+	
+	font-size: 15px;
+}
+
+#area {
+	width:300px;
+	height:100px;
+}
+
+fieldset {
+	width:800px;
+}
+
+#oo {
+	
+	color: black;
+}
+
+.pop{
+	width:960px;
+        height:500px;
+	border:4px solid green;
+	margin: 3rem 10rem;
+	
+}
+
+.pop2{
+                
+	width:100%;
+	margin:20px auto;
+        display:block;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+
+.pop3{
+	width:900px;
+	height:536px;
+	border:4px solid green;
+	margin: 3rem 10rem;
+	
+}
+
+
+
+/*Die Website ist  insgesamt 900 ppi groß*/
+
+slider() {
+
+	 width:1200px;
+       	 height:676px;
+
+
+}
+
+
+
+
+
+#wrapper {
+        width: 900px;
+        height: auto;
+        overflow: auto;
+        margin: auto;
+        background-color: #C6AD6F;
+	
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: -15px 15px 20px #333; /*Die ganze Website wirft einen Schatten!!!!!!! GEIL!!!!!! */
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-bottom: 50px;
+}
+
+
+
+
+/*
+	Responsive Imageslider
+*/
+ * { 
+	padding:0; margin:0;
+
+ }
+
+.responsive {
+	font-family: sans-serif;
+	
+
+}
+
+.bild {
+	max-width:100%;
+
+}
+
+/*cycyle slideshow */
+
+.cycle-slideshow {
+	width: 100%;
+	max-width:960px;
+	display:block;
+	position: relative;
+	margin:20px auto;
+	overflow: hidden;
+	border:4px solid brown;
+	border-color:#19FFAF;
+	box-shadow: 5px 10px 5px 10px rgba(0,0,0,0.75);
+/*	border-color: brown;
+*/        
+
+}
+
+.cycle-prev, .cycle-next {
+	font-size: 200%;
+	color:#19FFAF ;
+/*	color: #04B4AE; */
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+
+.cycle-prev {
+	left: 10%;
+
+}
+
+.cycle-next {
+	right: 10%;
+
+
+}
+
+.cycle-pager {
+	width:100%;
+	position: absolute;
+	top: 20px;
+	text-align: center;
+	z-index: 9999;
+}
+
+.cycle-pager span {
+	text-indent: 100%;
+	white-space: nowrap;
+	width:10px;
+	height: 10px;
+	display: inline-block;
+/*	border: 1px solid #04B4AE;*/
+	border: 1px solid #19FFAF;
+	border-radius: 50%;
+	margin: 0 10px;
+
+}
+
+.cycle-pager .cycle-pager-active {
+	/*background: #04B4AE;*/
+	background:#19FFAF ;
+
+}
+
+
+.clear{
+        clear:both;
+}
+
+.logo{
+        width:100px;
+        float:left;
+
+}
+
+.pic{
+        float:left;
+        margin: 1rem;
+}
+
+.suchstring {
+    color: #EF2846 ;
+	font-size: 20px;
+
+}
+
+#info, #info2 {
+padding:10px;
+background:rgba(0,0,0,0.75);
+color:white;
+position:absolute;
+top:0px;
+left:0px;
+display:none;
+border-radius:3px;
+}
+
+#counter {
+width:300px;
+height:20px;
+box-shadow: 5px 10px 5px 10px rgba(0,0,0,0.75);
+background-color:#19ffaf;
+/*background-color:darkblue;*/
+background-color:url(Unbenannt.jpg);
+color:white;
+text-align:center;
+padding:20px;
+}
+
+#counter span{
+color:red;
+font-size:1.5em;
+}
+
+
+.div {
+padding: 30px;
+border-color: #C25F5F;
+border-width: 10px;
+border-style: solid;
+
+}
+
+
+table, th, td {
+    border: 3px solid black;
+        border-color: blue;
+        padding: 20px;
+                text-align: left;
+                width: 400px;
+                color: violet;
+                /*background: white;*/
+}
+
+.left {
+position: left;
+}
+
