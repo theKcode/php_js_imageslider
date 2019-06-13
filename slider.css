@@ -7,8 +7,6 @@ body {
 }
 
 #header {
-	/*width: auto;
-	height: 180px;*/
 	overflow: auto;
 }
 
@@ -17,7 +15,6 @@ body {
 	width: 250px;
 	height: 25px;
 	background-color: #df6c0f;
-/*	background-color: #9109B2; */
 	box-shadow: 0px 0px 20px #FFB600;
 	margin-top: 0px;
 	font-weight: 900;
@@ -27,15 +24,12 @@ body {
 	width: 900px;
 	height: 65px;
 	background-color: #C6AD6F;
-
 }
 
 nav ul {
 	float: left;
 	padding-left: 20px;
 	margin: 20px;
-
-
 }
 
 nav ul li {
@@ -55,18 +49,13 @@ nav ul li {
 nav a {
 
 	background-color: #df6c0f;	
-/*	background-color: #9109B2; */
 	display: block;
 }
 
-/*wenn der cursor über den menüpunten ist, aber nicht gedrückt wird*/
+/*wenn der cursor über den menüpunkten ist, aber nicht gedrückt wird*/
 nav a:hover,
 nav a:focus {
-
-	background-color:#19FFAF;
-	/*background-image:url(img/Margarethe_im-magischen-Wald.png);*/
-
-
+	background-color:#19FFA;
 }
 
 #inhalt {
@@ -82,9 +71,8 @@ nav a:focus {
 }
 
 p {
-	        padding-top: 5px;
+	padding-top: 5px;
         margin-top: 5px;
-
 }
 
 #spalte_links {
@@ -98,12 +86,10 @@ p {
 	width: 274px;
 	margin-right: 20px;
 	float: left;
-	
 }
 
 #spalte_mitte a:link{
 	color: #1E7C23;
-	
 }
 
 
@@ -117,26 +103,20 @@ p {
 	width: 567px;
 	margin-right: 20px;
 	float: left;
-
 }
 
-/*#Inhaltsverzeichnis {
-	width: 567px;
-	float: left;
-}
-*/
- h2 {
-    font-size: 16px;
+h2 {
+	font-size: 16px;
 	color: #525e6a;
 }
 
- h3 {
-    font-size: 12px;
+h3 {
+	font-size: 12px;
 	color: #525e6a;
 }
 
 .teaser {
-    border-top-color: #C6AD6F;
+    	border-top-color: #C6AD6F;
 	border-top-style: solid;
 	var op_ie = 100;
 	border-top-width: 3px;
@@ -151,7 +131,6 @@ p {
 	height: 100px;
 	margin-right: 10px;
 	margin-bottom: 5px;
-
 }
 
 .bild_gross {
@@ -160,7 +139,6 @@ p {
 	height: 200px;
 	margin-right: 10px;
 	margin-bottom: 5px;
-	/* Wie bringe ich es fertig, wenn das originabild rechteckig ist, dass es nicht verzogen ist und trotzdem 200x200px ausfüllt?*/
 }
 
 #footerhi {
@@ -169,20 +147,14 @@ p {
    float: left;
    background-color: #C6AD6F;
    margin-top: 5px;
-
 }
 
 label {
 	width: 160px;
 	float: left;
-	/* display: block; */
 	margin-top: 5px;
 	text-transform: uppercase;
 	color: #344680;
-
-
-	
-
 }
 
 #vorname, 
@@ -191,7 +163,6 @@ label {
 #plz,
 #ort {
 	width: 160px;
-
 }
 
 
@@ -200,12 +171,10 @@ textarea {
 	height: 60px;
 	color: green;
 	background-color: #FFB600;
-
 }
 
 .sendebutton {
 	padding-left: 160px;
-
 }
 
 
@@ -220,21 +189,17 @@ input {
 	width: 160px;
 	text-align: center;
 	float: center;
-
 }
 
 .andro {
 	width: 160px;
-	
 }
 
 a:link  {
 	color: #FF0000;
 	font-weight: bold;
 	text-decoration: none;
-	
 }
-
 
 a:visited {
 	color: #929292;
@@ -251,22 +216,18 @@ a:hover {
 
 a:active {
 	color: #FBE411;
-/*	color: #c31E01; */
 	font-weight: bold;
 	text-decoration: none;
 	/* wenn man was drückt, erscheint andere Farbe*/
-	
+
 }
 
 #x:link {
 	color: #525e6a;
-/*
-	color: #9109B2; */
 }
 
 #x:visited {
 	color: #6B6262;
-/*	color: #19FFAE; */
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -282,11 +243,7 @@ a:active {
 	color: #FBE411;
 	font-weight: bold;
 	text-decoration: none;
-	/* wenn man was drückt, erscheint andere Farbe*/
-	
 }
-
-
 
 eins {
 	color: #000;
@@ -301,14 +258,10 @@ eins {
 
 #versenden {
 	width: 30px;
-	
-	
-
 }
 
 kuk {
 	color: #6F1A0D;
-
 }
 
 sp {
@@ -401,8 +354,6 @@ slider() {
 
 	 width:1200px;
        	 height:676px;
-
-
 }
 
 
@@ -417,7 +368,7 @@ slider() {
         background-color: #C6AD6F;
 	
         font-family: Arial, Helvetica, sans-serif;
-        box-shadow: -15px 15px 20px #333; /*Die ganze Website wirft einen Schatten!!!!!!! GEIL!!!!!! */
+        box-shadow: -15px 15px 20px #333; /*Die ganze Website wirft einen Schatten */
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         margin-bottom: 50px;
